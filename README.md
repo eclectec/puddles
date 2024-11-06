@@ -5,6 +5,12 @@ The puddles project is message consumer utilized to listen to broker topics and 
 docker build -t puddle .
 ```
 
+## Run
+To run puddle with cloud stream source and a broker
+```
+docker compose up -d
+```
+
 ## Broker Options
 The project can submit data to both kafka or redis topics. The broker is set in the docker compose environment variable for BROKER
 
